@@ -62,3 +62,67 @@ Headers: {
     at IncomingMessage.emit (node:events:513:28)
     at endReadableNT (node:internal/streams/readable:1359:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2023-05-07 17:33:53.697] [info]  application version = 12.0.0
+[2023-05-07 17:33:53.708] [info]  Hello, log
+[2023-05-07 17:33:53.829] [info]  checking-for-update
+[2023-05-07 17:33:54.690] [info]  error in auto updater Error: Unable to find latest version on GitHub (https://api.github.com/repos/ibtissamOlearn/demo1/releases/latest), please ensure a production release exists: HttpError: 401 
+"method: GET url: https://api.github.com/repos/ibtissamOlearn/demo1/releases/latest\n\n          Data:\n          {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\"}\n          "
+Headers: {
+  "server": "GitHub.com",
+  "date": "Sun, 07 May 2023 16:33:54 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "80",
+  "x-github-media-type": "github.v3; format=json",
+  "x-ratelimit-limit": "60",
+  "x-ratelimit-remaining": "58",
+  "x-ratelimit-reset": "1683480364",
+  "x-ratelimit-used": "2",
+  "x-ratelimit-resource": "core",
+  "access-control-expose-headers": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset",
+  "access-control-allow-origin": "*",
+  "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+  "x-frame-options": "deny",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "0",
+  "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+  "content-security-policy": "default-src 'none'",
+  "vary": "Accept-Encoding, Accept, X-Requested-With",
+  "x-github-request-id": "6587:338E:5050E16:514335F:6457D2F1"
+}
+    at createHttpError (C:\Users\ZRGH5903.AD\Desktop\demo\demo1\node_modules\electron-updater\node_modules\builder-util-runtime\out\httpExecutor.js:14:12)
+    at IncomingMessage.<anonymous> (C:\Users\ZRGH5903.AD\Desktop\demo\demo1\node_modules\electron-updater\node_modules\builder-util-runtime\out\httpExecutor.js:147:28)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[2023-05-07 17:36:41.734] [info]  application version = 12.0.0
+[2023-05-07 17:36:41.744] [info]  Hello, log
+[2023-05-07 17:36:41.858] [info]  checking-for-update
+[2023-05-07 17:36:42.728] [info]  error in auto updater Error: Unable to find latest version on GitHub (https://api.github.com/repos/ibtissamOlearn/demo1/releases/latest), please ensure a production release exists: HttpError: 401 
+"method: GET url: https://api.github.com/repos/ibtissamOlearn/demo1/releases/latest\n\n          Data:\n          {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\"}\n          "
+Headers: {
+  "server": "GitHub.com",
+  "date": "Sun, 07 May 2023 16:36:42 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "80",
+  "x-github-media-type": "github.v3; format=json",
+  "x-ratelimit-limit": "60",
+  "x-ratelimit-remaining": "57",
+  "x-ratelimit-reset": "1683480364",
+  "x-ratelimit-used": "3",
+  "x-ratelimit-resource": "core",
+  "access-control-expose-headers": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset",
+  "access-control-allow-origin": "*",
+  "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+  "x-frame-options": "deny",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "0",
+  "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+  "content-security-policy": "default-src 'none'",
+  "vary": "Accept-Encoding, Accept, X-Requested-With",
+  "x-github-request-id": "6659:F781:1196632:11D1627:6457D399"
+}
+    at createHttpError (C:\Users\ZRGH5903.AD\Desktop\demo\demo1\node_modules\electron-updater\node_modules\builder-util-runtime\out\httpExecutor.js:14:12)
+    at IncomingMessage.<anonymous> (C:\Users\ZRGH5903.AD\Desktop\demo\demo1\node_modules\electron-updater\node_modules\builder-util-runtime\out\httpExecutor.js:147:28)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
