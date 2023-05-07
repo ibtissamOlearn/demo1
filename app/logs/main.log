@@ -1,0 +1,64 @@
+[2023-05-07 17:00:52.301] [info]  application version = 12.0.0
+[2023-05-07 17:00:52.316] [info]  Hello, log
+[2023-05-07 17:00:52.477] [info]  checking-for-update
+[2023-05-07 17:00:52.483] [info]  error in auto updater TypeError: Cannot read properties of null (reading 'webContents')
+[2023-05-07 17:03:32.274] [info]  application version = 12.0.0
+[2023-05-07 17:03:32.283] [info]  Hello, log
+[2023-05-07 17:03:32.378] [info]  checking-for-update
+[2023-05-07 17:03:32.390] [info]  error in auto updater TypeError: Cannot read properties of null (reading 'webContents')
+[2023-05-07 17:05:36.865] [info]  application version = 12.0.0
+[2023-05-07 17:05:36.876] [info]  Hello, log
+[2023-05-07 17:05:36.975] [info]  checking-for-update
+[2023-05-07 17:05:36.990] [info]  error in auto updater TypeError: Cannot read properties of undefined (reading 'webContents')
+[2023-05-07 17:08:04.012] [info]  application version = 12.0.0
+[2023-05-07 17:08:04.024] [info]  Hello, log
+[2023-05-07 17:08:04.130] [info]  checking-for-update
+[2023-05-07 17:08:04.138] [info]  error in auto updater TypeError: Cannot read properties of null (reading 'webContents')
+[2023-05-07 17:10:00.298] [info]  application version = 12.0.0
+[2023-05-07 17:10:00.308] [info]  Hello, log
+[2023-05-07 17:10:00.409] [info]  checking-for-update
+[2023-05-07 17:10:00.415] [info]  error in auto updater TypeError: Cannot read properties of undefined (reading 'webContents')
+[2023-05-07 17:12:21.668] [info]  application version = 12.0.0
+[2023-05-07 17:12:21.677] [info]  Hello, log
+[2023-05-07 17:12:21.770] [info]  checking-for-update
+[2023-05-07 17:12:21.779] [info]  error in auto updater Error: ENOENT: no such file or directory, open 'C:\Users\ZRGH5903.AD\Desktop\demo\angular-electron\node_modules\electron\dist\resources\app-update.yml'
+[2023-05-07 17:15:24.885] [info]  application version = 12.0.0
+[2023-05-07 17:15:24.898] [info]  Hello, log
+[2023-05-07 17:15:25.028] [info]  checking-for-update
+[2023-05-07 17:15:25.034] [info]  error in auto updater Error: ENOENT: no such file or directory, open 'C:\Users\ZRGH5903.AD\Desktop\demo\angular-electron\node_modules\electron\dist\resources\app-update.yml'
+[2023-05-07 17:17:18.863] [info]  application version = 12.0.0
+[2023-05-07 17:17:18.873] [info]  Hello, log
+[2023-05-07 17:17:18.985] [info]  checking-for-update
+[2023-05-07 17:17:18.991] [info]  error in auto updater Error: ENOENT: no such file or directory, open 'C:\Users\ZRGH5903.AD\Desktop\demo\angular-electron\node_modules\electron\dist\resources\app-update.yml'
+[2023-05-07 17:26:03.814] [info]  application version = 12.0.0
+[2023-05-07 17:26:03.825] [info]  Hello, log
+[2023-05-07 17:26:03.937] [info]  checking-for-update
+[2023-05-07 17:26:04.799] [info]  error in auto updater Error: Unable to find latest version on GitHub (https://api.github.com/repos/ibtissamOlearn/demo/releases/latest), please ensure a production release exists: HttpError: 401 
+"method: GET url: https://api.github.com/repos/ibtissamOlearn/demo/releases/latest\n\n          Data:\n          {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\"}\n          "
+Headers: {
+  "server": "GitHub.com",
+  "date": "Sun, 07 May 2023 16:26:04 GMT",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "80",
+  "x-github-media-type": "github.v3; format=json",
+  "x-ratelimit-limit": "60",
+  "x-ratelimit-remaining": "59",
+  "x-ratelimit-reset": "1683480364",
+  "x-ratelimit-used": "1",
+  "x-ratelimit-resource": "core",
+  "access-control-expose-headers": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset",
+  "access-control-allow-origin": "*",
+  "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+  "x-frame-options": "deny",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "0",
+  "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+  "content-security-policy": "default-src 'none'",
+  "vary": "Accept-Encoding, Accept, X-Requested-With",
+  "x-github-request-id": "63DB:7599:120C7FE:124645E:6457D11B"
+}
+    at createHttpError (C:\Users\ZRGH5903.AD\Desktop\demo\angular-electron\node_modules\electron-updater\node_modules\builder-util-runtime\out\httpExecutor.js:14:12)
+    at IncomingMessage.<anonymous> (C:\Users\ZRGH5903.AD\Desktop\demo\angular-electron\node_modules\electron-updater\node_modules\builder-util-runtime\out\httpExecutor.js:147:28)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
